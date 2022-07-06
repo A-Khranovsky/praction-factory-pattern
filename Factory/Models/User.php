@@ -23,6 +23,6 @@ class User extends \Factory\Router
     {
         $name = implode(' ', [$this->first_name, $this->last_name]);
         return '<strong>' . htmlspecialchars($name) . '</strong>' .
-            '('. htmlspecialchars($this->email) . ')';
+            '(' . htmlspecialchars($this->email) . ')';
     }
 }
